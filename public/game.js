@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const scoreboard = document.getElementById('scoreboard');
 
-const ws = new WebSocket('ws://localhost:3000');
+const ws = new WebSocket('wss://cca0-154-161-166-29.ngrok-free.app');
 const username = localStorage.getItem('username');
 
 let keys = {};
