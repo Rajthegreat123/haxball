@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1a1a1a;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.login-container input {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    background: #2c3e50;
+    color: white;
+}
+
+.login-container button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background: #2980b9;
+}
+
+#gameCanvas {
+    border: 2px solid white;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}

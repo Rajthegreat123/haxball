@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Haxball Clone - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <input type="text" id="username" placeholder="Enter username" maxlength="12">
+        <button onclick="joinGame()">Play Game</button>
+    </div>
+    <script>
+        function joinGame() {
+            const username = document.getElementById('username').value.trim();
+            if (username.length > 0) {
+                localStorage.setItem('username', username);
+                window.location.href = 'game.html';
+            }
+        }
+    </script>
+</body>
+</html>
