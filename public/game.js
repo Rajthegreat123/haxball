@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const scoreboard = document.getElementById('scoreboard');
 
-const ws = new WebSocket('wss://photos-usa.gl.at.ply.gg:52158');
+const ws = new WebSocket('wss://25.ip.gl.ply.gg:52158');
 const username = localStorage.getItem('username');
 
 let keys = {};
